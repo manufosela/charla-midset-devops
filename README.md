@@ -38,6 +38,26 @@ Ejecutamos:
 npx jest
 ```
 
+El test falla
+
+Crear archivo sum.js en src
+
+```javascript
+function sum(a, b) {
+  return a + b;
+}
+
+module.exports = sum;
+```
+
+Ejecutamos:
+
+```shell  
+npx jest
+```
+
+El test pasa
+
 ## BDD
 
 ### Configuración
