@@ -1,6 +1,11 @@
 # MINDSET DEVOPS
 
-## TDD
+Charla sobre el mindset DevOps orientada a personas que no tienen conocimientos previos sobre el tema y no son técnicas.
+Está separada en dos bloques de 1 hora cada uno.
+El primer bloque es la presentación 'Mindset DevOps.pdf'
+El segundo bloque es la presentación 'TDD y BDD.pdf' junto con una demo práctica.
+
+## Demo: TDD
 
 ### Configuración
 
@@ -58,7 +63,7 @@ npx jest
 
 El test pasa
 
-## BDD
+## Demo: BDD
 
 ### Configuración
 
@@ -83,6 +88,12 @@ Feature: Hello world
 ```
 
 Crea el directorio *support* dentro de features
+
+```shell
+mkdir support
+cd support
+```
+
 Dentro el fichero hello_world.steps.js
 
 ```javascript
@@ -111,6 +122,7 @@ Ejecutar el test
 ```shell
 npx cucumber-js
 ```
+
 
 ## Otro ejemplo mas complejo
 
